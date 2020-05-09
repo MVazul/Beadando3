@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1589047734 source:c:\users\user\documents\github\beadando3\graphicskit - original\widget.cpp
+	"Widget.h"
+
+1589047595 c:\users\user\documents\github\beadando3\graphicskit - original\widget.h
+	"graphics.hpp"
+
+1582388385 c:\users\user\documents\github\beadando3\graphicskit - original\include\graphics.hpp
+	<string>
+
+1589047622 source:c:\users\user\documents\github\beadando3\graphicskit - original\main.cpp
+	"master.h"
+
+1589047984 c:\users\user\documents\github\beadando3\graphicskit - original\master.h
+	"Widget.h"
+	"Jatekmester.h"
+
+1589047984 c:\users\user\documents\github\beadando3\graphicskit - original\jatekmester.h
+
