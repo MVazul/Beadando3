@@ -1,10 +1,18 @@
 #include "Column.h"
+//#include "Game_master.h"
 using namespace genv;
 
-Column::Column(int i) :
-    Widget(i*100, 80, 100, 620){}
+Column::Column(int i, std::function<bool(int)> f) :
+    Widget(i*100, 80, 100, 620),
+    nr(i){foo=f;}
 Column::~Column(){}
-void Column::handle(const genv::event& e){}
+void Column::handle(const genv::event& e)
+{
+    if(e.button==btn_left && items.size()<6)
+    {
+        items.push_back(foo(nr));
+    }
+}
 void Column::draw()
 {
     gout<<move_to(left, top)<<color(128*focused,128*focused,255)<<box(10,620)<<move_to(left+90, top)<<box(10,620);

@@ -3,8 +3,10 @@ using namespace genv;
 
 Loop::Loop() : Abstract_app(XX, YY)
 {
+    g=new Game_master();
+    auto foo =[&](int a){return g->turn(a);};
     for (int i=0; i<7; i++){
-        columns.push_back(new Column(i));
+        columns.push_back(new Column(i, foo));
         v.push_back(columns[i]);
     }
 }
@@ -15,7 +17,7 @@ void Loop::select(const event& ev)
             if(selected)
                 selected->unfocus();
             selected=nullptr;
-            for (int i = v.size()-1; i>=0; i--)
+            for (int i = v.size()-1; i>=0; i--){
                 if(v[i]->is_selected(ev.pos_x, ev.pos_y))
                     {
                         selected=v[i];
@@ -23,5 +25,6 @@ void Loop::select(const event& ev)
                         v.push_back(selected);
                         break;
                     }
+            }
         }
 }

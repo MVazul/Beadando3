@@ -4,6 +4,8 @@
 #define YY 700
 #include "Column.h"
 #include "Abstract_app.h"
+#include "Game_master.h"
+#include <functional>
 
 class Loop : public Abstract_app
 {
@@ -13,6 +15,8 @@ public:
 protected:
     void select(const genv::event&);
     std::vector<Column*> columns;
+    Game_master* g;
+    std::function<bool(int)> foo;
 };
 
 

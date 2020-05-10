@@ -21,20 +21,23 @@ void Abstract_app::select(const event& ev)
 }
 void Abstract_app::run()
 {
-    Widget* selected=nullptr;
+    selected=nullptr;
     gout.open(xx,yy);
     event ev;
     gin.timer(40);
     while(gin>>ev && ev.keycode!=key_escape){
-        select(ev);
-        if(selected)
-            selected->handle(ev);
         if (ev.type==ev_timer)
         {
             gout<<move_to(0,0)<<color(0,0,0)<<box(xx,yy);
             for(auto a: v)
                 a->draw();
             gout<<refresh;
+        }
+        else{
+            select(ev);
+            if(selected){
+                selected->handle(ev);
+            }
         }
     }
 }
