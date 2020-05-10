@@ -13,7 +13,6 @@ bool Widget::is_selected(const int& cx, const int& cy)
         focused=true;
         return true;
     }
-    unfocus();
     return false;
 }
 void Widget::unfocus() {focused=false;}

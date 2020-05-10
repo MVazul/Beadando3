@@ -1,7 +1,8 @@
-#include "master.h"
+#include "Loop.h"
 
 int main()
 {
-    loop();
+    Loop* game=new Loop();
+    game->run();
     return 0;
 }

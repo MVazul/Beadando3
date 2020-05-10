@@ -2,6 +2,6 @@
 #define MASTER_H_INCLUDED
 
 #include "Widget.h"
-#include "loop.h"
+#include "Loop.h"
 
 #endif // MASTER_H_INCLUDED
