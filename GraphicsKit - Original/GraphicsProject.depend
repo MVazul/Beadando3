@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589047734 source:c:\users\user\documents\github\beadando3\graphicskit - original\widget.cpp
+1589072346 source:c:\users\user\documents\github\beadando3\graphicskit - original\widget.cpp
 	"Widget.h"
 
 1589063646 c:\users\user\documents\github\beadando3\graphicskit - original\widget.h
@@ -8,7 +8,7 @@
 1582388385 c:\users\user\documents\github\beadando3\graphicskit - original\include\graphics.hpp
 	<string>
 
-1589047622 source:c:\users\user\documents\github\beadando3\graphicskit - original\main.cpp
+1589073432 source:c:\users\user\documents\github\beadando3\graphicskit - original\main.cpp
 	"master.h"
 
 1589071604 c:\users\user\documents\github\beadando3\graphicskit - original\master.h
@@ -17,17 +17,17 @@
 
 1589063646 c:\users\user\documents\github\beadando3\graphicskit - original\jatekmester.h
 
-1589064657 source:c:\users\user\documents\github\beadando3\graphicskit - original\loop.cpp
+1589073322 source:c:\users\user\documents\github\beadando3\graphicskit - original\loop.cpp
 	"loop.h"
 	<vector>
 
 1589064202 c:\users\user\documents\github\beadando3\graphicskit - original\loop.h
 	"Column.h"
 
-1589069868 c:\users\user\documents\github\beadando3\graphicskit - original\column.h
+1589072777 c:\users\user\documents\github\beadando3\graphicskit - original\column.h
 	"Widget.h"
 	<vector>
 
-1589071533 source:c:\users\user\documents\github\beadando3\graphicskit - original\column.cpp
+1589072733 source:c:\users\user\documents\github\beadando3\graphicskit - original\column.cpp
 	"Column.h"
 

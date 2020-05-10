@@ -10,10 +10,11 @@ public:
     Column(int);
     ~Column();
     void draw();
-    void handle(const genv::event&);
     void drop(bool);
+    bool full();
 protected:
     std::vector<bool> items;
+    void handle(const genv::event&);
 };
 
 
