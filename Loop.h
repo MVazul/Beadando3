@@ -3,6 +3,7 @@
 #define XX 700
 #define YY 700
 #include "Column.h"
+#include "States_textbox.h"
 #include "Abstract_app.h"
 #include "Game_master.h"
 #include <functional>
@@ -15,8 +16,10 @@ public:
 protected:
     void select(const genv::event&);
     std::vector<Column*> columns;
+    States_textbox* st;
     Game_master* g;
-    std::function<bool(int)> foo;
+    std::function<int(int)> foo;
+    std::function<void(int)> overfoo;
 };
 
 

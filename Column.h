@@ -8,7 +8,7 @@ class Column : public Widget
 {
 public:
     Column()=delete;
-    Column(int, std::function<bool(int)>);
+    Column(int, std::function<int(int)>, std::function<void(int)>);
     ~Column();
     void draw();
     void drop(bool);
@@ -17,8 +17,8 @@ public:
 protected:
     int nr;
     std::vector<bool> items;
-
-    std::function<bool(int)> foo;
+    std::function<int(int)> foo;
+    std::function<void(int)> overfoo;
 };
 
 

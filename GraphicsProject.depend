@@ -17,21 +17,22 @@
 
 1589063646 c:\users\user\documents\github\beadando3\graphicskit - original\jatekmester.h
 
-1589132154 source:c:\users\user\documents\github\beadando3\graphicskit - original\loop.cpp
+1589155491 source:c:\users\user\documents\github\beadando3\graphicskit - original\loop.cpp
 	"Loop.h"
 
-1589127848 c:\users\user\documents\github\beadando3\graphicskit - original\loop.h
+1589154851 c:\users\user\documents\github\beadando3\graphicskit - original\loop.h
 	"Column.h"
+	"States_textbox.h"
 	"Abstract_app.h"
 	"Game_master.h"
 	<functional>
 
-1589129591 c:\users\user\documents\github\beadando3\graphicskit - original\column.h
+1589151567 c:\users\user\documents\github\beadando3\graphicskit - original\column.h
 	"Widget.h"
 	<vector>
 	<functional>
 
-1589133269 source:c:\users\user\documents\github\beadando3\graphicskit - original\column.cpp
+1589155319 source:c:\users\user\documents\github\beadando3\graphicskit - original\column.cpp
 	"Column.h"
 
 1589132154 source:c:\users\user\documents\github\beadando3\graphicskit - original\abstract_app.cpp
@@ -41,9 +42,16 @@
 	"Widget.h"
 	<vector>
 
-1589135543 c:\users\user\documents\github\beadando3\graphicskit - original\game_master.h
+1589151089 c:\users\user\documents\github\beadando3\graphicskit - original\game_master.h
 	<vector>
 
-1589135543 source:c:\users\user\documents\github\beadando3\graphicskit - original\game_master.cpp
+1589151089 source:c:\users\user\documents\github\beadando3\graphicskit - original\game_master.cpp
 	"Game_master.h"
+
+1589155491 c:\users\user\documents\github\beadando3\graphicskit - original\states_textbox.h
+	"Widget.h"
+	<vector>
+
+1589155491 source:c:\users\user\documents\github\beadando3\graphicskit - original\states_textbox.cpp
+	"States_textbox.h"
 

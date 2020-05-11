@@ -40,14 +40,19 @@
 			<Add library="lib/libSDLmain.a" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="Abstract_app.cpp" />
+		<Unit filename="Abstract_app.h" />
 		<Unit filename="Column.cpp" />
 		<Unit filename="Column.h" />
+		<Unit filename="Game_master.cpp" />
+		<Unit filename="Game_master.h" />
+		<Unit filename="Loop.cpp" />
+		<Unit filename="Loop.h" />
+		<Unit filename="States_textbox.cpp" />
+		<Unit filename="States_textbox.h" />
 		<Unit filename="Widget.cpp" />
 		<Unit filename="Widget.h" />
-		<Unit filename="loop.cpp" />
-		<Unit filename="loop.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="master.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

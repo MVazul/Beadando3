@@ -7,11 +7,11 @@ class Game_master
 public:
     Game_master();
     ~Game_master();
-    bool turn (int);
-    int is_over(int);
+    int turn (int);
 protected:
-    bool color;
+    bool color=0, active=1;
     std::vector<std::vector<bool>> tabla;
+    int nr=0;
 };
 
 #endif // GAME_MASTER_H_INCLUDED
